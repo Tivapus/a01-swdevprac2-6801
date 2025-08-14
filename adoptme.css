@@ -63,8 +63,6 @@ textarea {
 }
 
 .form-label {
-    /* ใช้ label เดิมแล้วเพิ่มคลาสนี้สำหรับหัวข้อ
-    เพื่อป้องกันไม่ให้ CSS ของ .radio-group หรือ .checkbox-group มาทับ */
     display: block;
     font-weight: 600;
     color: #333;
@@ -72,7 +70,6 @@ textarea {
     align-items: center;
 }
 
-/* ปรับปรุงโครงสร้างของ checkbox-group และ radio-group ให้สะอาดขึ้น */
 .radio-group,
 .checkbox-group {
     display: flex;
@@ -96,7 +93,6 @@ textarea {
 
 }
 
-/* ลบโค้ดซ้ำซ้อนและกำหนดสไตล์ที่ชัดเจน */
 .radio-group input[type="radio"],
 .checkbox-group input[type="checkbox"] {
     display: flex;
